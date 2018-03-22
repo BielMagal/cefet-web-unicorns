@@ -48,7 +48,7 @@ h2{
 	margin-left: 12px;
 }
 
-#musica > p:nth-child(2n+1){
+#musica > p:nth-child(2n){
 	margin-left: 34px;
 }
 
@@ -66,13 +66,13 @@ h2{
   	text-align: center;
 }
 
-div.destacado > p:nth-child(2n){
-	margin-left: 34px;
-}
-
 div.destacado {
 	color: #004a79;
 	background-color: #c4caf3;
+}
+
+div.destacado > p:nth-child(2n){
+	padding-left: 34px;
 }
 
 
